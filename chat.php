@@ -53,7 +53,7 @@ const LANGUAGES = [
 ];
 load_config();
 $U=[];// This user data
-$db = null;// Database connection
+$db = postgres://user:GTXNwcdVFrY0GgdEwBaVURSqTaHGS5xy@dpg-cljkdd5ae00c73fn6db0-a.oregon-postgres.render.com/db_ogr9;// Database connection
 $memcached = null;// Memcached connection
 $language = LANG;// user selected language
 $locale = LANGUAGES[LANG]['locale'];// user selected locale
